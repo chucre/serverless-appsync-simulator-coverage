@@ -1,0 +1,30 @@
+{
+  "name": "serverless-appsync-simulator-coverage",
+  "version": "0.0.1",
+  "description": "PLugin to be user with serverless-appsync-simulator that generates cobertura for Velocity Language Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chucre/serverless-appsync-simulator-coverage.git"
+  },
+  "keywords": [
+    "serverless",
+    "framework",
+    "coverage"
+  ],
+  "author": "Fernando Chucre <fernandochucre@gmail.com>",
+  "private": false,
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/chucre/serverless-appsync-simulator-coverage/issues"
+  },
+  "homepage": "https://github.com/chucre/serverless-appsync-simulator-coverage#readme",
+  "dependencies": {
+    "amplify-velocity-template": "^1.3.3",
+    "istanbul": "^0.4.5"
+  },
+  "devDependencies": {}
+}
