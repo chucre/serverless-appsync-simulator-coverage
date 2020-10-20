@@ -150,7 +150,6 @@ class ServerlessAppSyncSimulatorCoverage {
         }
         fs.writeFileSync(fileName, templateMap.template.content);
       });
-      console.log(consolidatedCoverage);
       fs.writeFileSync(path.join(baseDir, 'coverage.json'), JSON.stringify(consolidatedCoverage));
     } catch (e) {
       console.error(e);
