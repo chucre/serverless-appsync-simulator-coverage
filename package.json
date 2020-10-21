@@ -1,6 +1,6 @@
 {
   "name": "serverless-appsync-simulator-coverage",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "PLugin to be user with serverless-appsync-simulator that generates cobertura for Velocity Language Template",
   "main": "index.js",
   "scripts": {
